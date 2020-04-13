@@ -1,7 +1,7 @@
 FROM centos:7
 LABEL MAINTAINER Tony Nguyen <tony@sendplex.com>
-LABEL Description="LAMP PHP 7.2. CentOS 7 - Click server" \
-	Usage="Kubernetes only" \
+LABEL Description="Gearmand Monitor System" \
+	Usage="Swarm" \
 	Version="1.0"
 
 # Install epel
