@@ -1,10 +1,10 @@
-# Dockerfile: Automator
+# Dockerfile: Gearmand Monitor
 
 
 Notes:
 - LAMP
 - PHP 7.2
-- Exposed ports: ssh, http, https
+- Exposed ports: Gearmand 8888, http, https
 
 Initiation
 1) Edit config file
