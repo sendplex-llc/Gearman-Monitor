@@ -20,6 +20,14 @@
 $i = 0;
 $cfgServers = array();
 
-$cfgServers[$i]['address'] = '127.0.0.1';
-$cfgServers[$i]['name'] = '';
+$cfgServers[$i]['address'] = 'prod_gearmand:8888';
+$cfgServers[$i]['name'] = 'Production';
+++ $i;
+
+$cfgServers[$i]['address'] = 'stag_staggearmand:8888';
+$cfgServers[$i]['name'] = 'Staging';
+++ $i;
+
+$cfgServers[$i]['address'] = 'dev_devgearmand:8888';
+$cfgServers[$i]['name'] = 'Development';
 ++ $i;
